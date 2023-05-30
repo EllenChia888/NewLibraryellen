@@ -14,3 +14,16 @@ Children:
       DataType: LocalizedText
       ModellingRule: Optional
       Value: {"LocaleId":"zh-CN","Text":"标签1"}
+- Name: 标签11
+  Type: ObjectLibraryItem
+  Children:
+  - Name: 标签11
+    Id: g=8f7df8c26615ced0affd52d5ec99fdf3
+    Supertype: Label
+    ReferenceType: HasComponent
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"zh-CN","Text":"标签1"}
